@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+font-size: 150px;
+font-family: sans-serif;
+z-index: -1;
+display: flex;
+align-items: center;
+justify-content: center;
+color: rgb(255, 208, 0);
+position: absolute;
+}
+
+.hero-sec{
+    background-color: rgba(127, 255, 212, 0.493);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.cane{
+    height: 80vh;
+    width: 20%;
+    /* border: 1px solid red; */
+    background-image: url('./can2.png');
+    overflow: hidden;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: 100% 100%;
+    position: relative;
+    padding-top: 50px;
+}
+
+.cane:hover #content-img{
+transform: translateX(-26.8%);
+}
+
+#content-img{
+    height: 74%;
+    z-index: 1;
+position: absolute;
+overflow: hidden;
+transition: all 1s ease-in;
+}
