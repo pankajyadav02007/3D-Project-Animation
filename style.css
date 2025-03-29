@@ -15,6 +15,19 @@ color: rgb(255, 208, 0);
 position: absolute;
 }
 
+#orange{
+    font-size: 180px;
+    font-family: sans-serif;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 115, 0);
+    position: absolute;
+    display: none;
+    }
+    
+
 .hero-sec{
     background-color: rgba(127, 255, 212, 0.493);
     display: flex;
@@ -91,3 +104,28 @@ transition: all 1s ease-in;
         right: 120px;
         background: transparent; 
     }  */
+
+    
+    #orange-1{
+        position: absolute;
+        top: 55%;
+        right: 52%;
+        z-index: -1;
+        display: none;
+    }
+
+    #orange-2{
+        position: absolute;
+        top: -10%;
+        left: 60%;
+        z-index:-1;
+display: none;
+    }
+
+    #orange-3{
+        position: absolute;
+        top: 20px;
+        right:60% ;
+        z-index: -1;
+display: none;
+    }
